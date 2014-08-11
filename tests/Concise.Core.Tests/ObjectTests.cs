@@ -1,6 +1,5 @@
 ﻿using NUnit.Framework;
 using System;
-using Concise.Core;
 
 namespace Concise.Core.Tests
 {
@@ -27,7 +26,7 @@ namespace Concise.Core.Tests
 
 			Assert.AreEqual(expected, actual);
 		}
-			
+
 	}
 }
 

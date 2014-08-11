@@ -3,11 +3,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{4E2A47C5-B76D-47B8-BFC1-EED04716E759}</ProjectGuid>
+    <ProjectGuid>{58555FCE-9EC9-47D2-BC64-EAF0F95EF871}</ProjectGuid>
     <OutputType>Library</OutputType>
     <RootNamespace>Concise.Core.Tests</RootNamespace>
     <AssemblyName>Concise.Core.Tests</AssemblyName>
-    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <DebugSymbols>true</DebugSymbols>

@@ -7,7 +7,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Concise.Core", "src\Concise
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{1474DBD4-FE5B-4DE2-B8CF-789EC960AB98}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Concise.Core.Tests", "tests\Concise.Core.Tests\Concise.Core.Tests.csproj", "{4E2A47C5-B76D-47B8-BFC1-EED04716E759}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Concise.Core.Tests", "tests\Concise.Core.Tests\Concise.Core.Tests.csproj", "{58555FCE-9EC9-47D2-BC64-EAF0F95EF871}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,10 +15,10 @@ Global
 		Release|x86 = Release|x86
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{4E2A47C5-B76D-47B8-BFC1-EED04716E759}.Debug|x86.ActiveCfg = Debug|Any CPU
-		{4E2A47C5-B76D-47B8-BFC1-EED04716E759}.Debug|x86.Build.0 = Debug|Any CPU
-		{4E2A47C5-B76D-47B8-BFC1-EED04716E759}.Release|x86.ActiveCfg = Release|Any CPU
-		{4E2A47C5-B76D-47B8-BFC1-EED04716E759}.Release|x86.Build.0 = Release|Any CPU
+		{58555FCE-9EC9-47D2-BC64-EAF0F95EF871}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{58555FCE-9EC9-47D2-BC64-EAF0F95EF871}.Debug|x86.Build.0 = Debug|Any CPU
+		{58555FCE-9EC9-47D2-BC64-EAF0F95EF871}.Release|x86.ActiveCfg = Release|Any CPU
+		{58555FCE-9EC9-47D2-BC64-EAF0F95EF871}.Release|x86.Build.0 = Release|Any CPU
 		{BF52CBAF-8517-415E-BDED-9A1AB73B3C8F}.Debug|x86.ActiveCfg = Debug|Any CPU
 		{BF52CBAF-8517-415E-BDED-9A1AB73B3C8F}.Debug|x86.Build.0 = Debug|Any CPU
 		{BF52CBAF-8517-415E-BDED-9A1AB73B3C8F}.Release|x86.ActiveCfg = Release|Any CPU
@@ -26,7 +26,7 @@ Global
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{BF52CBAF-8517-415E-BDED-9A1AB73B3C8F} = {3881BBDC-A658-47D1-A13E-EBAE77B7DF39}
-		{4E2A47C5-B76D-47B8-BFC1-EED04716E759} = {1474DBD4-FE5B-4DE2-B8CF-789EC960AB98}
+		{58555FCE-9EC9-47D2-BC64-EAF0F95EF871} = {1474DBD4-FE5B-4DE2-B8CF-789EC960AB98}
 	EndGlobalSection
 	GlobalSection(MonoDevelopProperties) = preSolution
 		StartupItem = src\Concise.Core\Concise.Core.csproj
