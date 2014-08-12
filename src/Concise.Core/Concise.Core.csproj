@@ -38,10 +38,13 @@
     <Compile Include="Objects\ObjectMethods.cs" />
     <Compile Include="ObjectExtensions.cs" />
     <Compile Include="StringExtensions.cs" />
+    <Compile Include="Numbers\IIntegerMethods.cs" />
+    <Compile Include="Numbers\IntegerMethods.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
   <ItemGroup>
     <Folder Include="Strings\" />
     <Folder Include="Objects\" />
+    <Folder Include="Numbers\" />
   </ItemGroup>
 </Project>
