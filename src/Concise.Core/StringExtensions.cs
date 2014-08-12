@@ -16,6 +16,21 @@ namespace Concise.Core
 		{
 			return (_strMethods.IsNothing(source));
 		}
+
+        public static string FormatTo(this string source, params string[] args)
+        {
+            return _strMethods.FormatTo(source, args);
+        }
+
+        public static string Write(this string source)
+        {
+            return _strMethods.Write(source);
+        }
+
+        public static string WriteLine(this string source)
+        {
+            return _strMethods.WriteLine(source);
+        }
 	}
 }
 

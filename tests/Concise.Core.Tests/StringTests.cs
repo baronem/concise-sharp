@@ -48,7 +48,18 @@ namespace Concise.Core.Tests
 			Assert.AreEqual(expected, actual);
 		}
 
+        [Test()]
+        public void Format_FormatsCorrectly()
+        {
+            string arg1 = "one";
+            string arg2 = "two";
+            string template = "{0} is not {1}";
 
+            string expected = string.Format(template, arg1, arg2);
+            string actual = template.FormatTo(arg1, arg2);
+
+            Assert.AreEqual(expected, actual);
+        }
 	}
 }
 

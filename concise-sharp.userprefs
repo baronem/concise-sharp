@@ -1,6 +1,20 @@
 ﻿<Properties>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug|x86" />
-  <MonoDevelop.Ide.Workbench />
+  <MonoDevelop.Ide.Workbench ActiveDocument="src/Concise.Core/Strings/StringMethods.cs">
+    <Files>
+      <File FileName="tests/Concise.Core.Tests/ObjectTests.cs" Line="17" Column="17" />
+      <File FileName="src/Concise.Core/Strings/IStringMethods.cs" Line="38" Column="38" />
+      <File FileName="src/Concise.Core/Strings/StringMethods.cs" Line="17" Column="17" />
+    </Files>
+    <Pads>
+      <Pad Id="MonoDevelop.NUnit.TestPad">
+        <State expanded="True" selected="True">
+          <Option id="ShowTestTime" value="True" />
+          <Option id="ShowTestCounters" value="True" />
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
