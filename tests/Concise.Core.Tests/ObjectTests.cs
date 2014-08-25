@@ -27,6 +27,16 @@ namespace Concise.Core.Tests
 			Assert.AreEqual(expected, actual);
 		}
 
+        [Test()]
+        public void IsNull_ReturnsFalse_OnInitializedValueType()
+        {
+            int assigned = 1;
+
+            bool expected = false;
+            bool actual = assigned.IsNull();
+
+            Assert.AreEqual(expected, actual);
+        }
 	}
 }
 

@@ -38,8 +38,9 @@
     <Compile Include="Objects\ObjectMethods.cs" />
     <Compile Include="ObjectExtensions.cs" />
     <Compile Include="StringExtensions.cs" />
-    <Compile Include="Numbers\IIntegerMethods.cs" />
-    <Compile Include="Numbers\IntegerMethods.cs" />
+    <Compile Include="Numbers\IDecimalMethods.cs" />
+    <Compile Include="Numbers\DecimalMethods.cs" />
+    <Compile Include="DecimalExtensions.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
   <ItemGroup>

@@ -33,6 +33,7 @@
   <ItemGroup>
     <Compile Include="ObjectTests.cs" />
     <Compile Include="StringTests.cs" />
+    <Compile Include="DecimalTests.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
   <ItemGroup>
