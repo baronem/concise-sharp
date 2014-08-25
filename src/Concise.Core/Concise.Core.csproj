@@ -29,6 +29,7 @@
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
+    <Reference Include="System.Core" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -41,6 +42,9 @@
     <Compile Include="Numbers\IDecimalMethods.cs" />
     <Compile Include="Numbers\DecimalMethods.cs" />
     <Compile Include="DecimalExtensions.cs" />
+    <Compile Include="Numbers\IIntegralMethods.cs" />
+    <Compile Include="Numbers\IntegralMethods.cs" />
+    <Compile Include="IntegralExtensions.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
   <ItemGroup>
